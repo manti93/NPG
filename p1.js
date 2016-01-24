@@ -1,4 +1,4 @@
-var codegeneneratorTest = require('./codegen');
+//var codegeneneratorTest = require('./codegen');
 var utilsTest = require('./utils');
 var _ = utils.getLodash();
 
