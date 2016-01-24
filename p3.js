@@ -1,6 +1,6 @@
 /**
  * Detech the Interpreter instance. Call before releasing references to
- * JSInterpreter so any async callbacks will not execute.
+// * JSInterpreter so any async callbacks will not execute.
  */
 JSInterpreter.prototype.deinitialize = function () {
   this.interpreter = null;

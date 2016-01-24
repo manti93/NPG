@@ -1,4 +1,4 @@
-var initFunc = function (interpreter, scope) {
+//var initFunc = function (interpreter, scope) {
     // Store Interpreter on JSInterpreter
     self.interpreter = interpreter;
     // Store globalScope on JSInterpreter

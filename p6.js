@@ -8,7 +8,7 @@ var doneUserLine = false;
     session = this.studioApp.editor.aceEditor.getSession();
   }
 
-  // In each tick, we will step the interpreter multiple times in a tight
+  //// In each tick, we will step the interpreter multiple times in a tight
   // loop as long as we are interpreting code that the user can't see
   // (function aliases at the beginning, getCallback event loop at the end)
   for (var stepsThisTick = 0;

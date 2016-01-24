@@ -1,6 +1,6 @@
 var doneUserLine = false;
   var reachedBreak = false;
-  var unwindingAfterStep = false;
+ // var unwindingAfterStep = false;
   var inUserCode;
   var userCodeRow;
   var session;

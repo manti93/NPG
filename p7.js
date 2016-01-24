@@ -6,7 +6,7 @@
       }
       this.maxValidCallExpressionDepth = stackDepth;
 
-      if (inUserCode && this.interpreter.stateStack[0].node.type === "CallExpression") {
+   //   if (inUserCode && this.interpreter.stateStack[0].node.type === "CallExpression") {
         // Store that we've seen a call expression at this depth in callExpressionSeenAtDepth:
         this.callExpressionSeenAtDepth[stackDepth] = true;
       }

@@ -1,4 +1,4 @@
-      this.executeLoopDepth--;
+//      this.executeLoopDepth--;
       return;
     }
   }
@@ -7,7 +7,7 @@
     // code may not be selected in the editor, so do it now:
     this.selectCurrentCode();
   }
-  this.executeLoopDepth--;
+//  this.executeLoopDepth--;
 };
 
 /**

@@ -6,7 +6,7 @@ JSInterpreter.prototype.getGlobalFunctionNames = function () {
     var object = this.globalScope.properties[objName];
     if (object.type === 'function' &&
         !object.nativeFunc &&
-        builtInExclusionList.indexOf(objName) === -1) {
+//        builtInExclusionList.indexOf(objName) === -1) {
       names.push(objName);
     }
   }

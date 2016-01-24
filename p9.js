@@ -8,7 +8,7 @@ JSInterpreter.prototype.selectCurrentCode = function (highlightClass) {
   if (this.studioApp.hideSource) {
     return -1;
   }
-  return codegen.selectCurrentCode(this.interpreter,
+//  return codegen.selectCurrentCode(this.interpreter,
                                    this.codeInfo.cumulativeLength,
                                    this.codeInfo.userCodeStartOffset,
                                    this.codeInfo.userCodeLength,
