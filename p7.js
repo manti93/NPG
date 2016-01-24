@@ -1,4 +1,4 @@
-     // Truncate any history of call expressions seen deeper than our current stack position:
+.//     // Truncate any history of call expressions seen deeper than our current stack position:
       for (var depth = stackDepth + 1;
             depth <= this.maxValidCallExpressionDepth;
             depth++) {
