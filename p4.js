@@ -1,4 +1,4 @@
-/**
+///**
  * Yield execution (causes executeInterpreter loop to break out if this is
  * called by APIs called by interpreted code)
  */
