@@ -1,4 +1,4 @@
-var doneUserLine = false;
+//var doneUserLine = false;
   var reachedBreak = false;
  // var unwindingAfterStep = false;
   var inUserCode;

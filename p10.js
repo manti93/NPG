@@ -1,4 +1,4 @@
-JSInterpreter.prototype.getGlobalFunctionNames = function () {
+//JSInterpreter.prototype.getGlobalFunctionNames = function () {
   var builtInExclusionList = [ "eval", "getCallback", "setCallbackRetVal" ];
 
   var names = [];

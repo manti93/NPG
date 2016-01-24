@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 var codegeneneratorTest = require('./codegen');
 //var utilsTest = require('./utils');
+=======
+//var codegeneneratorTest = require('./codegen');
+var utilsTest = require('./utils');
+>>>>>>> test2
 var _ = utils.getLodash();
 
 /**

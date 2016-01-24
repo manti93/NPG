@@ -1,4 +1,4 @@
-/**
+///**
  * Selects code in droplet/ace editor.
  *
  * Returns the row (line) of code highlighted. If nothing is highlighted
