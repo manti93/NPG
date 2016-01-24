@@ -1,4 +1,4 @@
-/**
+///**
  * Detech the Interpreter instance. Call before releasing references to
  * JSInterpreter so any async callbacks will not execute.
  */
